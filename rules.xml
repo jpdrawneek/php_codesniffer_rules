@@ -159,11 +159,53 @@
     <configKey>PSR2/Classes</configKey>
     <description>@category tag comment incorrectly indented</description>
   </rule>
-  <rule key="PSR2.ControlStructures.SwitchDeclaration.caseIndent" priority="MAJOR">
+  <rule key="PSR2.ControlStructures.SwitchDeclaration.caseIndent" priority="MINOR">
     <category name="PSR2" />
     <name>Tag comment incorrectly indented</name>
     <configKey>PSR2/ControlStructures</configKey>
     <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="PSR2.Methods.FunctionCallSignature.SpaceBeforeOpenBracket" priority="MINOR">
+    <category name="PSR2" />
+    <name>Space Before Open Bracket</name>
+    <configKey>PSR2/Methods/Function Call Signature</configKey>
+    <description>@category Remove the space before the opening bracket in the method call</description>
+  </rule>
+  <rule key="PSR2.Methods.FunctionCallSignature.SpaceBeforeCloseBracket" priority="MINOR">
+    <category name="PSR2" />
+    <name>Space Before Close Bracket</name>
+    <configKey>PSR2/Methods/Function Call Signature</configKey>
+    <description>@category Remove the space before the close bracket in the method call</description>
+  </rule>
+  <rule key="PSR2.Methods.FunctionCallSignature.ContentAfterOpenBracket" priority="MINOR">
+    <category name="PSR2" />
+    <name>Content After Open Bracket</name>
+    <configKey>PSR2/Methods/Function Call Signature</configKey>
+    <description>@category Move the content on the same line as the opening bracket</description>
+  </rule>
+  <rule key="PSR2.Methods.FunctionCallSignature.Indent" priority="MINOR">
+    <category name="PSR2" />
+    <name>Indent</name>
+    <configKey>PSR2/Methods/Function Call Signature</configKey>
+    <description>@category Indent issue in function signature</description>
+  </rule>
+  <rule key="PSR2.Methods.FunctionCallSignature.CloseBracketLine" priority="MINOR">
+    <category name="PSR2" />
+    <name>Close Bracket Line</name>
+    <configKey>PSR2/Methods/Function Call Signature</configKey>
+    <description>@category Put close bracket on its own line</description>
+  </rule>
+  <rule key="PSR2.Methods.FunctionCallSignature.SpaceAfterOpenBracket" priority="MINOR">
+    <category name="PSR2" />
+    <name>Space After Open Bracket</name>
+    <configKey>PSR2/Methods/Function Call Signature</configKey>
+    <description>@category Remove space after opening bracket</description>
+  </rule>
+  <rule key="PSR2.Methods.MethodDeclaration.Underscore" priority="MINOR">
+    <category name="PSR2" />
+    <name>Space After Open Bracket</name>
+    <configKey>PSR2/MethodDeclaration</configKey>
+    <description>@category Issue with the underscore?</description>
   </rule>
 <!-- Squiz Rules -->
   <rule key="Squiz.ControlStructures.SwitchDeclaration.SpaceBeforeColonCase" priority="MAJOR">
@@ -195,6 +237,18 @@
     <name>Checks that else/elseif/catch statements start on a new line.</name>
     <configKey>Squiz/ControlStructures</configKey>
     <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Squiz.Functions.MultiLineFunctionDeclaration.SpaceAfterFunction" priority="MINOR">
+    <category name="Squiz" />
+    <name>Space After Function</name>
+    <configKey>Squiz/Functions</configKey>
+    <description>@category Remove the space after function</description>
+  </rule>
+  <rule key="Squiz.Functions.MultiLineFunctionDeclaration.SpaceAfterBracket" priority="MINOR">
+    <category name="Squiz" />
+    <name>Space After Bracket</name>
+    <configKey>Squiz/Functions</configKey>
+    <description>@category Remove the space after bracket</description>
   </rule>
 <!-- Drupal Rules -->
   <rule key="Drupal.WhiteSpace.ScopeClosingBrace.BreakIdent" priority="MAJOR">
