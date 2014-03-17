@@ -251,6 +251,24 @@
     <description>@category Remove the space after bracket</description>
   </rule>
 <!-- Drupal Rules -->
+  <rule key="Drupal.WhiteSpace.OperatorSpacing.NoSpaceAfter" priority="MINOR">
+    <category name="Drupal" />
+    <name>No Space After</name>
+    <configKey>Drupal/WhiteSpace</configKey>
+    <description>@category Add space after the operator!</description>
+  </rule>
+  <rule key="Drupal.Semantics.FunctionCall.NotLiteralString" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Not Literal String</name>
+    <configKey>Drupal/Semantics</configKey>
+    <description>@category Not Sure about this one.</description>
+  </rule>
+  <rule key="Drupal.WhiteSpace.OperatorSpacing.NoSpaceBefore" priority="MINOR">
+    <category name="Drupal" />
+    <name>No Space Before</name>
+    <configKey>Drupal/WhiteSpace</configKey>
+    <description>@category Add space before the operator!</description>
+  </rule>
   <rule key="Drupal.WhiteSpace.ScopeClosingBrace.BreakIdent" priority="MAJOR">
     <category name="Drupal" />
     <name>Checks that else/elseif/catch statements start on a new line.</name>
