@@ -18,7 +18,13 @@
     <name>Tag comment incorrectly indented</name>                                                                                                                                  
     <configKey>Generic/NamingConventions</configKey>                                                                                                                               
     <description>@category tag comment incorrectly indented</description>                                                                                                          
-  </rule>                                                                                                                                                                          
+  </rule>
+  <rule key="Generic.PHP.LowerCaseKeyword.Found" priority="MINOR">
+    <category name="Generic" />
+    <name>Lower Case Keyword Found</name>                                                                                                                                  
+    <configKey>Generic/PHP.LowerCaseKeyword.Found</configKey>                                                                                                                               
+    <description>@category Key words should be all upper case!</description>                                                                                                          
+  </rule>
 <!-- PSR1 Rules -->                                                                                                                                                                
   <rule key="PSR1.Classes.ClassDeclaration.MissingNamespace" priority="MAJOR">
     <category name="PSR1" />
@@ -206,6 +212,42 @@
     <name>Space After Open Bracket</name>
     <configKey>PSR2/MethodDeclaration</configKey>
     <description>@category Issue with the underscore?</description>
+  </rule>
+  <rule key="PSR2.ControlStructures.SwitchDeclaration.WrongOpenercase" priority="MINOR">
+    <category name="PSR2" />
+    <name>Switch Declaration Wrong Openercase</name>
+    <configKey>PSR2/ControlStructures.SwitchDeclaration.WrongOpenercase</configKey>
+    <description>@category case should be lower case?</description>
+  </rule>
+  <rule key="PSR2.Classes.PropertyDeclaration.Underscore" priority="MAJOR">
+    <category name="PSR2" />
+    <name>Property Declaration Underscore</name>
+    <configKey>PSR2/Classes.PropertyDeclaration.Underscore</configKey>
+    <description>@category No underscore in class property as they are not needed!</description>
+  </rule>
+  <rule key="PSR2.ControlStructures.ControlStructureSpacing.SpaceBeforeCloseBrace" priority="MINOR">
+    <category name="PSR2" />
+    <name>Space Before Close Brace</name>
+    <configKey>PSR2/ControlStructures.ControlStructureSpacing.SpaceBeforeCloseBrace</configKey>
+    <description>@category Remove space before close brase!</description>
+  </rule>
+  <rule key="PSR2.ControlStructures.ControlStructureSpacing.SpacingAfterOpenBrace" priority="MINOR">
+    <category name="PSR2" />
+    <name>Spacing After Open Brace</name>
+    <configKey>PSR2/ControlStructures.ControlStructureSpacing.SpacingAfterOpenBrace</configKey>
+    <description>@category Remove space after opening brace!</description>
+  </rule>
+  <rule key="PSR2.Classes.ClassDeclaration.CloseBraceSameLine" priority="MINOR">
+    <category name="PSR2" />
+    <name>Close Brace Same Line</name>
+    <configKey>PSR2/Classes.ClassDeclaration.CloseBraceSameLine</configKey>
+    <description>@category Braces should be on separate lines!</description>
+  </rule>
+  <rule key="PSR2.Namespaces.UseDeclaration.MultipleDeclarations" priority="MINOR">
+    <category name="PSR2" />
+    <name>Multiple Use Declarations</name>
+    <configKey>PSR2/Namespaces.UseDeclaration.MultipleDeclarations</configKey>
+    <description>@category Tidy up Use Declarations?</description>
   </rule>
 <!-- Squiz Rules -->
   <rule key="Squiz.ControlStructures.SwitchDeclaration.SpaceBeforeColonCase" priority="MAJOR">
