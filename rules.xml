@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<rules>  
+<!-- Generic Rules -->
+  <rule key="Generic.Functions.OpeningFunctionBraceKernighanRitchie.SpaceAfterBracket" priority="MINOR">
+    <category name="Generic" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>Generic/Functions</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Generic.NamingConventions.CamelCapsFunctionName.ScopeNotCamelCaps" priority="MAJOR">
+    <category name="Generic" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>Generic/NamingConventions</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Generic.NamingConventions.CamelCapsFunctionName.MethodDoubleUnderscore" priority="MAJOR">
+    <category name="Generic" />
+    <name>Tag comment incorrectly indented</name>                                                                                                                                  
+    <configKey>Generic/NamingConventions</configKey>                                                                                                                               
+    <description>@category tag comment incorrectly indented</description>                                                                                                          
+  </rule>                                                                                                                                                                          
+<!-- PSR1 Rules -->                                                                                                                                                                
+  <rule key="PSR1.Classes.ClassDeclaration.MissingNamespace" priority="MAJOR">
+    <category name="PSR1" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>PSR1/Classes</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="PSR1.Files.SideEffects.FoundWithSymbols" priority="MAJOR">
+    <category name="PSR1" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>PSR1/Files</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="PSR1.Classes.ClassDeclaration.MultipleClasses" priority="MAJOR">
+    <category name="PSR1" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>PSR1/Classes</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+<!-- PSR2 Rules -->
+  <rule key="PSR2.Classes.PropertyDeclaration" priority="MINOR">
+    <category name="PSR2" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>PSR2/Classes</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="PSR2.Classes.PropertyDeclaration.Multiple" priority="MAJOR">
+    <category name="PSR2" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>PSR2/Classes</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="PSR2.ControlStructures.ElseIfDeclaration.NotAllowed" priority="MAJOR">
+    <category name="PSR2" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>PSR2/ControlStructures</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="PSR2.Classes.ClassDeclaration.OpenBraceNewLine" priority="MAJOR">
+    <category name="PSR2" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>PSR2/Classes</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="PSR2.ControlStructures.SwitchDeclaration.SpaceBeforeColondefault" priority="MAJOR">
+    <category name="PSR2" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>PSR2/ControlStructures</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="PSR2.ControlStructures.SwitchDeclaration.SpaceBetweenCase" priority="MAJOR">
+    <category name="PSR2" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>PSR2/ControlStructures</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="PSR2.Classes.ClassDeclaration.SpaceBeforeBrace" priority="MAJOR">
+    <category name="PSR2" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>PSR2/Classes</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="PSR2.Files.EndFileNewline.NoneFound" priority="MAJOR">
+    <category name="PSR2" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>PSR2/Classes</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="PSR2.Classes.ClassDeclaration.OpenBraceNotAlone" priority="MAJOR">
+    <category name="PSR2" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>PSR2/Classes</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="PSR2.Files.EndFileNewline.TooMany" priority="MAJOR">
+    <category name="PSR2" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>PSR2/Classes</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="PSR2.Methods.MethodDeclaration.StaticBeforeVisibility" priority="MAJOR">
+    <category name="PSR2" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>PSR2/Classes</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="PSR2.Classes.ClassDeclaration.SpaceAfterName" priority="MAJOR">
+    <category name="PSR2" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>PSR2/Classes</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="PSR2.ControlStructures.SwitchDeclaration.BreakIndent" priority="MAJOR">
+    <category name="PSR2" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>PSR2/ControlStructures</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="PSR2.Namespaces.UseDeclaration.SpaceAfterLastUse" priority="MAJOR">
+    <category name="PSR2" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>PSR2/Classes</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="PSR2.ControlStructures.SwitchDeclaration.defaultIndent" priority="MAJOR">
+    <category name="PSR2" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>PSR2/ControlStructures</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="PSR2.Namespaces.NamespaceDeclaration.BlankLineAfter" priority="MAJOR">
+    <category name="PSR2" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>PSR2/Classes</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="PSR2.ControlStructures.SwitchDeclaration.caseNotLower" priority="MAJOR">
+    <category name="PSR2" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>PSR2/ControlStructures</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="PSR2.ControlStructures.SwitchDeclaration.SpaceBeforeColoncase" priority="MAJOR">
+    <category name="PSR2" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>PSR2/ControlStructures</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="PSR2.Classes.ClassDeclaration.CloseBraceAfterBody" priority="MAJOR">
+    <category name="PSR2" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>PSR2/Classes</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="PSR2.Methods.MethodDeclaration.AbstractAfterVisibility" priority="MAJOR">
+    <category name="PSR2" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>PSR2/Classes</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="PSR2.ControlStructures.SwitchDeclaration.caseIndent" priority="MAJOR">
+    <category name="PSR2" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>PSR2/ControlStructures</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+<!-- Squiz Rules -->
+  <rule key="Squiz.ControlStructures.SwitchDeclaration.SpaceBeforeColonCase" priority="MAJOR">
+    <category name="Squiz" />
+    <name>Checks that else/elseif/catch statements start on a new line.</name>
+    <configKey>Squiz/ControlStructures</configKey>
+    <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine" priority="MAJOR">
+    <category name="Squiz" />
+    <name>Checks that else/elseif/catch statements start on a new line.</name>
+    <configKey>Squiz/WhiteSpace</configKey>
+    <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Squiz.Functions.MultiLineFunctionDeclaration.BraceIndent" priority="MAJOR">
+    <category name="Squiz" />
+    <name>Checks that else/elseif/catch statements start on a new line.</name>
+    <configKey>Squiz/Functions</configKey>
+    <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine" priority="MAJOR">
+    <category name="Squiz" />
+    <name>Checks that else/elseif/catch statements start on a new line.</name>
+    <configKey>Squiz/Functions</configKey>
+    <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Squiz.ControlStructures.ControlSignature" priority="MAJOR">
+    <category name="Squiz" />
+    <name>Checks that else/elseif/catch statements start on a new line.</name>
+    <configKey>Squiz/ControlStructures</configKey>
+    <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+<!-- Drupal Rules -->
+  <rule key="Drupal.WhiteSpace.ScopeClosingBrace.BreakIdent" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Checks that else/elseif/catch statements start on a new line.</name>
+    <configKey>Drupal/WhiteSpace</configKey>
+    <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Drupal.Commenting.FunctionComment.ContentAfterOpen" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Checks that else/elseif/catch statements start on a new line.</name>
+    <configKey>Drupal/Commenting</configKey>
+    <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Drupal.Commenting.FunctionComment.Empty" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Checks that else/elseif/catch statements start on a new line.</name>
+    <configKey>Drupal/Commenting</configKey>
+    <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Drupal.Formatting.SpaceColon.NoSpaceAfter" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Checks that else/elseif/catch statements start on a new line.</name>
+    <configKey>Drupal/ControlStructures</configKey>
+    <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Drupal.Semantics.Br.XHTMLBr" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Checks that else/elseif/catch statements start on a new line.</name>
+    <configKey>Drupal/ControlStructures</configKey>
+    <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Drupal.WhiteSpace.ScopeClosingBrace.Indent" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Checks that else/elseif/catch statements start on a new line.</name>
+    <configKey>Drupal/ControlStructures</configKey>
+    <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Drupal.Semantics.FunctionCall.Concat" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Checks that else/elseif/catch statements start on a new line.</name>
+    <configKey>Drupal/ControlStructures</configKey>
+    <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Drupal.Array.Array.ArrayClosingIndentation" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Checks that else/elseif/catch statements start on a new line.</name>
+    <configKey>Drupal/ControlStructures</configKey>
+    <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Drupal.Commenting.FunctionComment.InvalidReturnTypeName" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Checks that else/elseif/catch statements start on a new line.</name>
+    <configKey>Drupal/ControlStructures</configKey>
+    <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Drupal.Semantics.FunctionCall.FunctionAlias" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Checks that else/elseif/catch statements start on a new line.</name>
+    <configKey>Drupal/ControlStructures</configKey>
+    <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Drupal.Semantics.InstallHooks.InstallHook" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Checks that else/elseif/catch statements start on a new line.</name>
+    <configKey>Drupal/ControlStructures</configKey>
+    <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Drupal.ControlStructures.ElseCatchNewline.ElseNewline" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Checks that else/elseif/catch statements start on a new line.</name>
+    <configKey>Drupal/ControlStructures</configKey>
+    <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Drupal.Commenting.FunctionComment.HookReturnDoc" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Checks that else/elseif/catch statements start on a new line.</name>
+    <configKey>Drupal/ControlStructures</configKey>
+    <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Drupal.Commenting.FunctionComment.ShortNotCapital" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Checks that else/elseif/catch statements start on a new line.</name>
+    <configKey>Drupal/ControlStructures</configKey>
+    <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Drupal.Commenting.FunctionComment.MissingReturnType" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Checks that else/elseif/catch statements start on a new line.</name>
+    <configKey>Drupal/ControlStructures</configKey>
+    <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Drupal.Commenting.FunctionComment.ParamCommentIndentation" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Checks that else/elseif/catch statements start on a new line.</name>
+    <configKey>Drupal/ControlStructures</configKey>
+    <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Drupal.Strings.UnnecessaryStringConcat.Found" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Checks that else/elseif/catch statements start on a new line.</name>
+    <configKey>Drupal/ControlStructures</configKey>
+    <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Drupal.Commenting.FunctionComment.HookParamDoc" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Checks that else/elseif/catch statements start on a new line.</name>
+    <configKey>Drupal/ControlStructures</configKey>
+    <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Drupal.Commenting.FunctionComment.MissingParamType" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Checks that else/elseif/catch statements start on a new line.</name>
+    <configKey>Drupal/ControlStructures</configKey>
+    <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Drupal.ControlStructures.ElseIf" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Checks that else/elseif/catch statements start on a new line.</name>
+    <configKey>Drupal/ControlStructures</configKey>
+    <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Drupal.Semantics.FunctionCall.LArg" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Checks that else/elseif/catch statements start on a new line.</name>
+    <configKey>Drupal/ControlStructures</configKey>
+    <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Drupal.Semantics.TInHookMenu.TFound" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Checks that else/elseif/catch statements start on a new line.</name>
+    <configKey>Drupal/ControlStructures</configKey>
+    <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>  
+  <rule key="Drupal.WhiteSpace.ScopeIndent.IncorrectExact" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Checks that else/elseif/catch statements start on a new line.</name>
+    <configKey>Drupal/ControlStructures</configKey>
+    <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Drupal.Semantics.FunctionCall.WatchdogT" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Checks that else/elseif/catch statements start on a new line.</name>
+    <configKey>Drupal/ControlStructures</configKey>
+    <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Drupal.WhiteSpace.ScopeIndent.Incorrect" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Checks that else/elseif/catch statements start on a new line.</name>
+    <configKey>Drupal/ControlStructures</configKey>
+    <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Drupal.Commenting.FunctionComment.ShortSingleLine" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Checks that else/elseif/catch statements start on a new line.</name>
+    <configKey>Drupal/ControlStructures</configKey>
+    <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Drupal.Semantics.EmptyInstall.EmptyInstall" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Checks that else/elseif/catch statements start on a new line.</name>
+    <configKey>Drupal/ControlStructures</configKey>
+    <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Drupal.Commenting.FunctionComment.ShortFullStop" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Checks that else/elseif/catch statements start on a new line.</name>
+    <configKey>Drupal/ControlStructures</configKey>
+    <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Drupal.Commenting.FunctionComment.InvalidParamTypeName" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Checks that else/elseif/catch statements start on a new line.</name>
+    <configKey>Drupal/ControlStructures</configKey>
+    <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Drupal.NamingConventions.ValidFunctionName.ScopeNotLowerCamel" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Checks that else/elseif/catch statements start on a new line.</name>
+    <configKey>Drupal/ControlStructures</configKey>
+    <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Drupal.ControlStructures.ElseCatchNewline" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Checks that else/elseif/catch statements start on a new line.</name>
+    <configKey>Drupal/ControlStructures</configKey>
+    <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Drupal.WhiteSpace.ScopeIndent" priority="MINOR">
+    <category name="Drupal" />
+    <name>Drupal WhiteSpace ScopeIndent</name>
+    <configKey>Drupal/WhiteSpace</configKey>
+    <description>@category Largely copied from Generic_Sniffs_Whitespace_ScopeIndentSniff, modified to make the exact mode working with comments and multi line statements.</description>
+  </rule>
+  <rule key="Drupal.Array.Array" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Array.Array.ArrayIndentation" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Array.Array.LongLineDeclaration" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Classes.ClassCreateInstance" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Commenting.DocCommentAlignment.BlankLine" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Commenting.DocCommentAlignment.SpaceBeforeAsterisk" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Commenting.FileComment" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Commenting.FileComment.DescriptionMissing" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Commenting.FileComment.Missing" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Commenting.FileComment.SpacingAfter" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Commenting.FileComment.WrongStyle" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Commenting.FileComment.WrongStyle" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Commenting.FunctionComment" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Commenting.FunctionComment.InvalidParamType" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Commenting.FunctionComment.InvalidReturnType" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Commenting.FunctionComment.Missing" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.ControlStructures.ControlSignature" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.ControlStructures.ElseNewline.ElseNewline" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Formatting.DisallowCloseTag.FinalClose" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Formatting.SpaceColon" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Commenting.FunctionComment.MissingParamComment" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Commenting.FunctionComment.MissingReturnComment" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Commenting.FunctionComment.ParamCommentNewLine" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Commenting.FunctionComment.ParamNameNoMatch" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Commenting.FunctionComment.ReturnCommentNewLine" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Commenting.FunctionComment.SpacingAfterParams" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Commenting.FunctionComment.SpacingBeforeParams" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Commenting.FunctionComment.WrongStyle" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Commenting.InlineComment.DocBlock" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Commenting.InlineComment.InvalidEndChar" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Commenting.InlineComment.NoSpaceBefore" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Commenting.InlineComment.NotCapital" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Commenting.InlineComment.SpacingAfter" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Commenting.InlineComment.SpacingBefore" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Commenting.InlineComment.WrongStyle" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.ControlStructures.TemplateControlStructure.CurlyBracket" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Files.LineLength.TooLong" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Formatting.MultiLineAssignment" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Formatting.SpaceOperator" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.NamingConventions.ValidVariableName" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Semantics.LStringTranslatable.LArg" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Strings.ConcatenationSpacing.Missing" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.WhiteSpace.CloseBracketSpacing.ClosingWhitespace" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.WhiteSpace.EmptyLines.EmptyLines" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.WhiteSpace.FileEnd.FileEnd" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.WhiteSpace.LineEnding.EndLine" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.WhiteSpace.OpenBracketSpacing.OpeningWhitespace" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.WhiteSpace.ScopeClosingBrace" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Tag comment incorrectly indented</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category tag comment incorrectly indented</description>
+  </rule>
+</rules>
