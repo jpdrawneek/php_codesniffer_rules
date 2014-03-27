@@ -25,6 +25,12 @@
     <configKey>Generic/PHP.LowerCaseKeyword.Found</configKey>                                                                                                                               
     <description>@category Key words should be all upper case!</description>                                                                                                          
   </rule>
+  <rule key="Generic.PHP.DeprecatedFunctions.Deprecated" priority="MINOR">
+    <category name="Generic" />
+    <name>Deprecated Functions</name>                                                                                                                                  
+    <configKey>Generic/PHP.LowerCaseKeyword.Found</configKey>                                                                                                                               
+    <description>@category Look at removing this function!</description>                                                                                                          
+  </rule>
 <!-- PSR1 Rules -->                                                                                                                                                                
   <rule key="PSR1.Classes.ClassDeclaration.MissingNamespace" priority="MAJOR">
     <category name="PSR1" />
@@ -250,11 +256,23 @@
     <description>@category Tidy up Use Declarations?</description>
   </rule>
 <!-- Squiz Rules -->
+  <rule key="Squiz.Arrays.ArrayDeclaration.CommaAfterLast" priority="MAJOR">
+    <category name="Squiz" />
+    <name>Array Declaration Comma After Last.</name>
+    <configKey>Squiz/Arrays</configKey>
+    <description>@category Remove last comma from array declaration.</description>
+  </rule>
   <rule key="Squiz.ControlStructures.SwitchDeclaration.SpaceBeforeColonCase" priority="MAJOR">
     <category name="Squiz" />
     <name>Checks that else/elseif/catch statements start on a new line.</name>
     <configKey>Squiz/ControlStructures</configKey>
     <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Squiz.WhiteSpace.SuperfluousWhitespace.StartFile" priority="MAJOR">
+    <category name="Squiz" />
+    <name>Superfluous Whitespace Start File.</name>
+    <configKey>Squiz/WhiteSpace</configKey>
+    <description>@category Remove white space at start of the file.</description>
   </rule>
   <rule key="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine" priority="MAJOR">
     <category name="Squiz" />
@@ -299,9 +317,27 @@
     <configKey>Drupal/WhiteSpace</configKey>
     <description>@category Add space after the operator!</description>
   </rule>
+  <rule key="Drupal.WhiteSpace.OperatorSpacing.SpacingAfter" priority="MINOR">
+    <category name="Drupal" />
+    <name>Space After operator</name>
+    <configKey>Drupal/WhiteSpace</configKey>
+    <description>@category Remove space after the operator!</description>
+  </rule>
+  <rule key="Drupal.WhiteSpace.OperatorSpacing.SpacingBefore" priority="MINOR">
+    <category name="Drupal" />
+    <name>Space before operator</name>
+    <configKey>Drupal/WhiteSpace</configKey>
+    <description>@category Remove space before the operator!</description>
+  </rule>
   <rule key="Drupal.Semantics.FunctionCall.NotLiteralString" priority="MAJOR">
     <category name="Drupal" />
     <name>Not Literal String</name>
+    <configKey>Drupal/Semantics</configKey>
+    <description>@category Not Sure about this one.</description>
+  </rule>
+  <rule key="Drupal.Semantics.FunctionCall.EmptyString" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Function Call Empty String.</name>
     <configKey>Drupal/Semantics</configKey>
     <description>@category Not Sure about this one.</description>
   </rule>
@@ -328,6 +364,18 @@
     <name>Checks that else/elseif/catch statements start on a new line.</name>
     <configKey>Drupal/Commenting</configKey>
     <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Drupal.Formatting.SpaceInlineIf.NoSpaceAfter" priority="MINOR">
+    <category name="Drupal" />
+    <name>Space In line If: No Space After.</name>
+    <configKey>Drupal/Formatting</configKey>
+    <description>@category Put space after inline IF statement.</description>
+  </rule>
+  <rule key="Drupal.Formatting.SpaceInlineIf.NoSpaceBefore" priority="MINOR">
+    <category name="Drupal" />
+    <name>Space In line If: No Space before.</name>
+    <configKey>Drupal/Formatting</configKey>
+    <description>@category Put space before inline IF statement.</description>
   </rule>
   <rule key="Drupal.Formatting.SpaceColon.NoSpaceAfter" priority="MAJOR">
     <category name="Drupal" />
@@ -401,6 +449,12 @@
     <configKey>Drupal/ControlStructures</configKey>
     <description>@category Checks that else/elseif/catch statements start on a new line.</description>
   </rule>
+  <rule key="Drupal.Commenting.FunctionComment.MissingShort" priority="MINOR">
+    <category name="Drupal" />
+    <name>Function Comment Missing Short.</name>
+    <configKey>Drupal/Commenting</configKey>
+    <description>@category Not Sure about this one.</description>
+  </rule>
   <rule key="Drupal.Commenting.FunctionComment.ParamCommentIndentation" priority="MAJOR">
     <category name="Drupal" />
     <name>Checks that else/elseif/catch statements start on a new line.</name>
@@ -454,6 +508,12 @@
     <name>Checks that else/elseif/catch statements start on a new line.</name>
     <configKey>Drupal/ControlStructures</configKey>
     <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Drupal.Semantics.FunctionCall.WhiteSpace" priority="MINOR">
+    <category name="Drupal" />
+    <name>Function Call White Space.</name>
+    <configKey>Drupal/Semantics</configKey>
+    <description>@category Remove extra white space in function call.</description>
   </rule>
   <rule key="Drupal.WhiteSpace.ScopeIndent.Incorrect" priority="MAJOR">
     <category name="Drupal" />
@@ -664,6 +724,12 @@
     <name>Tag comment incorrectly indented</name>
     <configKey>TAG_INDENT</configKey>
     <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Commenting.FunctionComment.WrongEnd" priority="MINOR">
+    <category name="Drupal" />
+    <name>Function Comment Wrong End</name>
+    <configKey>Drupal/Commenting</configKey>
+    <description>@category Not sure about this one.</description>
   </rule>
   <rule key="Drupal.Commenting.FunctionComment.WrongStyle" priority="MAJOR">
     <category name="Drupal" />
