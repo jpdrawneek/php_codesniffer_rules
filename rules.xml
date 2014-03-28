@@ -311,6 +311,12 @@
     <description>@category Remove the space after bracket</description>
   </rule>
 <!-- Drupal Rules -->
+  <rule key="Drupal.Functions.FunctionDeclaration.SpaceBeforeParenthesis" priority="MINOR">
+    <category name="Drupal" />
+    <name>Function Declaration Space Before Parenthesis</name>
+    <configKey>Drupal/Functions</configKey>
+    <description>@category Remove space before parenthesis!</description>
+  </rule>
   <rule key="Drupal.WhiteSpace.OperatorSpacing.NoSpaceAfter" priority="MINOR">
     <category name="Drupal" />
     <name>No Space After</name>
@@ -536,20 +542,26 @@
   <rule key="Drupal.Commenting.FunctionComment.ShortFullStop" priority="MAJOR">
     <category name="Drupal" />
     <name>Checks that else/elseif/catch statements start on a new line.</name>
-    <configKey>Drupal/ControlStructures</configKey>
+    <configKey>Drupal/Commenting</configKey>
     <description>@category Checks that else/elseif/catch statements start on a new line.</description>
   </rule>
   <rule key="Drupal.Commenting.FunctionComment.InvalidParamTypeName" priority="MAJOR">
     <category name="Drupal" />
     <name>Checks that else/elseif/catch statements start on a new line.</name>
-    <configKey>Drupal/ControlStructures</configKey>
+    <configKey>Drupal/Commenting</configKey>
     <description>@category Checks that else/elseif/catch statements start on a new line.</description>
   </rule>
   <rule key="Drupal.NamingConventions.ValidFunctionName.ScopeNotLowerCamel" priority="MAJOR">
     <category name="Drupal" />
     <name>Checks that else/elseif/catch statements start on a new line.</name>
-    <configKey>Drupal/ControlStructures</configKey>
+    <configKey>Drupal/NamingConventions</configKey>
     <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Drupal.NamingConventions.ValidFunctionName.NotLowerCamel" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Valid Function Name Not Lower Camel</name>
+    <configKey>Drupal/NamingConventions</configKey>
+    <description>@category Change function name to be lover camel case.</description>
   </rule>
   <rule key="Drupal.ControlStructures.ElseCatchNewline" priority="MAJOR">
     <category name="Drupal" />
@@ -598,6 +610,12 @@
     <name>Tag comment incorrectly indented</name>
     <configKey>TAG_INDENT</configKey>
     <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Commenting.DocCommentAlignment.SpaceBeforeTag" priority="MINOR">
+    <category name="Drupal" />
+    <name>Doc Comment Alignment Space Before Tag</name>
+    <configKey>Drupal/Commenting</configKey>
+    <description>@category Remove space before tag</description>
   </rule>
   <rule key="Drupal.Commenting.FileComment" priority="MAJOR">
     <category name="Drupal" />
@@ -806,8 +824,20 @@
   <rule key="Drupal.NamingConventions.ValidVariableName" priority="MAJOR">
     <category name="Drupal" />
     <name>Tag comment incorrectly indented</name>
-    <configKey>TAG_INDENT</configKey>
+    <configKey>Drupal/Naming Conventions</configKey>
     <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.NamingConventions.ValidClassName.NoUnderscores" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Valid Class Name No Underscores</name>
+    <configKey>Drupal/Naming Conventions</configKey>
+    <description>@category Remove underscores from class name</description>
+  </rule>
+  <rule key="Drupal.NamingConventions.ValidClassName.StartWithCaptial" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Valid Class Name Start With Captial</name>
+    <configKey>Drupal/Naming Conventions</configKey>
+    <description>@category Class name should start with a captial letter.</description>
   </rule>
   <rule key="Drupal.Semantics.LStringTranslatable.LArg" priority="MAJOR">
     <category name="Drupal" />
