@@ -32,6 +32,12 @@
     <description>@category Look at removing this function!</description>                                                                                                          
   </rule>
 <!-- PSR1 Rules -->                                                                                                                                                                
+  <rule key="PSR1.Methods.CamelCapsMethodName.NotCamelCaps" priority="MAJOR">
+    <category name="PSR1" />
+    <name>Method name not in camel cap</name>
+    <configKey>PSR1/method</configKey>
+    <description>@category Camel caps needed on method name</description>
+  </rule>
   <rule key="PSR1.Classes.ClassDeclaration.MissingNamespace" priority="MAJOR">
     <category name="PSR1" />
     <name>Tag comment incorrectly indented</name>
@@ -255,6 +261,25 @@
     <configKey>PSR2/Namespaces.UseDeclaration.MultipleDeclarations</configKey>
     <description>@category Tidy up Use Declarations?</description>
   </rule>
+  <rule key="PSR2.Classes.ClassDeclaration.ImplementsLine" priority="MINOR">
+    <category name="PSR2" />
+    <name>Class Declaration Implements Line</name>
+    <configKey>PSR2/Classes.ClassDeclaration.ImplementsLine</configKey>
+    <description>@category Braces should be on separate lines!</description>
+  </rule>
+  <rule key="PSR2.ControlStructures.SwitchDeclaration.TerminatingComment" priority="MINOR">
+    <category name="PSR2" />
+    <name>Switch Declaration Terminating Comment</name>
+    <configKey>PSR2/ControlStructures.SwitchDeclaration.TerminatingComment</configKey>
+    <description>@category Tidy up Use Declarations?</description>
+  </rule>
+  <rule key="PSR2.Methods.FunctionCallSignature.MultipleArguments" priority="MINOR">
+    <category name="PSR2" />
+    <name>Function Call Signature Multiple Arguments</name>
+    <configKey>PSR2/Methods.FunctionCallSignature.MultipleArguments</configKey>
+    <description>@category Tidy up Use Declarations?</description>
+  </rule>
+
 <!-- Squiz Rules -->
   <rule key="Squiz.Arrays.ArrayDeclaration.CommaAfterLast" priority="MAJOR">
     <category name="Squiz" />
@@ -301,15 +326,40 @@
   <rule key="Squiz.Functions.MultiLineFunctionDeclaration.SpaceAfterFunction" priority="MINOR">
     <category name="Squiz" />
     <name>Space After Function</name>
-    <configKey>Squiz/Functions</configKey>
+    <configKey>Squiz/Functions.MultiLineFunctionDeclaration.SpaceAfterFunction</configKey>
     <description>@category Remove the space after function</description>
   </rule>
   <rule key="Squiz.Functions.MultiLineFunctionDeclaration.SpaceAfterBracket" priority="MINOR">
     <category name="Squiz" />
     <name>Space After Bracket</name>
-    <configKey>Squiz/Functions</configKey>
+    <configKey>Squiz/Functions.MultiLineFunctionDeclaration.SpaceAfterBracket</configKey>
     <description>@category Remove the space after bracket</description>
   </rule>
+  <rule key="Squiz.Functions.MultiLineFunctionDeclaration.NewlineBeforeOpenBrace" priority="MINOR">
+    <category name="Squiz" />
+    <name>Newline Before Open Brace</name>
+    <configKey>Squiz/Functions.MultiLineFunctionDeclaration.NewlineBeforeOpenBrace</configKey>
+    <description>@category Remove new line before open brace</description>
+  </rule>
+  <rule key="Squiz.Functions.MultiLineFunctionDeclaration.Indent" priority="MINOR">
+    <category name="Squiz" />
+    <name>Indent</name>
+    <configKey>Squiz/Functions.MultiLineFunctionDeclaration.Indent</configKey>
+    <description>@category Sort function indentation out.</description>
+  </rule>
+  <rule key="Squiz.Functions.MultiLineFunctionDeclaration.CloseBracketLine" priority="MINOR">
+    <category name="Squiz" />
+    <name>Close Bracket Line</name>
+    <configKey>Squiz/Functions.MultiLineFunctionDeclaration.CloseBracketLine</configKey>
+    <description>@category Put close bracket on its own line.</description>
+  </rule>
+  <rule key="Squiz.Functions.FunctionDeclaration" priority="MINOR">
+    <category name="Squiz" />
+    <name>Function Declaration</name>
+    <configKey>Squiz/Functions.FunctionDeclaration</configKey>
+    <description>@category Put a function declaration in</description>
+  </rule>
+
 <!-- Drupal Rules -->
   <rule key="Drupal.Functions.FunctionDeclaration.SpaceBeforeParenthesis" priority="MINOR">
     <category name="Drupal" />
