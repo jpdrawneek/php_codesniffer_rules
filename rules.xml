@@ -52,9 +52,9 @@
   </rule>
   <rule key="PSR1.Classes.ClassDeclaration.MultipleClasses" priority="MAJOR">
     <category name="PSR1" />
-    <name>Tag comment incorrectly indented</name>
+    <name>Class Declaration Multiple Classes</name>
     <configKey>PSR1/Classes</configKey>
-    <description>@category tag comment incorrectly indented</description>
+    <description>@category File should only declare one class</description>
   </rule>
 <!-- PSR2 Rules -->
   <rule key="PSR2.Classes.PropertyDeclaration" priority="MINOR">
@@ -273,11 +273,41 @@
     <configKey>PSR2/ControlStructures.SwitchDeclaration.TerminatingComment</configKey>
     <description>@category Tidy up Use Declarations?</description>
   </rule>
-  <rule key="PSR2.Methods.FunctionCallSignature.MultipleArguments" priority="MINOR">
+  <rule key="PSR2.Methods.FunctionCallSignature.MultipleArguments" priority="MAJOR">
     <category name="PSR2" />
     <name>Function Call Signature Multiple Arguments</name>
     <configKey>PSR2/Methods.FunctionCallSignature.MultipleArguments</configKey>
     <description>@category Tidy up Use Declarations?</description>
+  </rule>
+  <rule key="PSR2.Classes.ClassDeclaration.ExtendsLine" priority="MINOR">
+    <category name="PSR2" />
+    <name>Class Declaration Extends Line</name>
+    <configKey>PSR2/Classes.ClassDeclaration.ExtendsLine</configKey>
+    <description>@category Tidy up Use Declarations?</description>
+  </rule>
+  <rule key="PSR2.Classes.PropertyDeclaration.ScopeMissing" priority="CRITICAL">
+    <category name="PSR2" />
+    <name>Property Declaration Scope Missing</name>
+    <configKey>PSR2/Classes.PropertyDeclaration.ScopeMissing</configKey>
+    <description>@category Add scope to the class property</description>
+  </rule>
+  <rule key="PSR2.Classes.ClassDeclaration.SpaceBeforeName" priority="MINOR">
+    <category name="PSR2" />
+    <name>Class Declaration Space Before Name</name>
+    <configKey>PSR2/Classes.ClassDeclaration.SpaceBeforeName</configKey>
+    <description>@category Remove space before class name</description>
+  </rule>
+  <rule key="PSR2.Classes.ClassDeclaration.SpaceBeforeComma" priority="MINOR">
+    <category name="PSR2" />
+    <name>Class Declaration Space Before Comma</name>
+    <configKey>PSR2/Classes.ClassDeclaration.SpaceBeforeComma</configKey>
+    <description>@category Remove space before comma</description>
+  </rule>
+  <rule key="PSR2.ControlStructures.SwitchDeclaration.WrongOpenerdefault" priority="MAJOR">
+    <category name="PSR2" />
+    <name>Switch Declaration Wrong Opener default</name>
+    <configKey>PSR2/ControlStructures.SwitchDeclaration.WrongOpenerdefault</configKey>
+    <description>@category Switch incorrect</description>
   </rule>
 
 <!-- Squiz Rules -->
