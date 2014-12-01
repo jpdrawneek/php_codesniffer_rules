@@ -69,6 +69,12 @@
     <configKey>PSR2/Classes</configKey>
     <description>@category tag comment incorrectly indented</description>
   </rule>
+  <rule key="PSR2.Classes.PropertyDeclaration.VarUsed" priority="MAJOR">
+    <category name="PSR2" />
+    <name>Classes Property Declaration Var Used</name>
+    <configKey>PSR2/Classes</configKey>
+    <description>@category Don't use var in a class, this is PHP 5 and its 2014!</description>
+  </rule>
   <rule key="PSR2.ControlStructures.ElseIfDeclaration.NotAllowed" priority="MAJOR">
     <category name="PSR2" />
     <name>Tag comment incorrectly indented</name>
@@ -451,6 +457,12 @@
     <configKey>Drupal/Commenting</configKey>
     <description>@category Checks that else/elseif/catch statements start on a new line.</description>
   </rule>
+  <rule key="Drupal.Commenting.FunctionComment.$InReturnType" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Drupal Commenting FunctionComment $InReturnType.</name>
+    <configKey>Drupal/Commenting</configKey>
+    <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
   <rule key="Drupal.Formatting.SpaceInlineIf.NoSpaceAfter" priority="MINOR">
     <category name="Drupal" />
     <name>Space In line If: No Space After.</name>
@@ -547,6 +559,12 @@
     <configKey>Drupal/ControlStructures</configKey>
     <description>@category Checks that else/elseif/catch statements start on a new line.</description>
   </rule>
+  <rule key="Drupal.Commenting.FunctionComment.ShortStartSpace" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Drupal Commenting Function Comment ShortStartSpace.</name>
+    <configKey>Drupal/Commenting</configKey>
+    <description>@category Fix function comment.</description>
+  </rule>
   <rule key="Drupal.Strings.UnnecessaryStringConcat.Found" priority="MAJOR">
     <category name="Drupal" />
     <name>Checks that else/elseif/catch statements start on a new line.</name>
@@ -642,6 +660,12 @@
     <name>Valid Function Name Not Lower Camel</name>
     <configKey>Drupal/NamingConventions</configKey>
     <description>@category Change function name to be lover camel case.</description>
+  </rule>
+  <rule key="Drupal.NamingConventions.ValidVariableName.LowerCamelName" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Lower Camel Name not valid variable name</name>
+    <configKey>Drupal/NamingConventions</configKey>
+    <description>@category Fix the camel case variable name.</description>
   </rule>
   <rule key="Drupal.ControlStructures.ElseCatchNewline" priority="MAJOR">
     <category name="Drupal" />
