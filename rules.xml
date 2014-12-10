@@ -991,4 +991,89 @@
     <configKey>TAG_INDENT</configKey>
     <description>@category tag comment incorrectly indented</description>
   </rule>
+<!-- Security Rules -->
+  <rule key="Security.Drupal7.HttpRequest.D7HttpRequestSSL" priority="MAJOR">
+    <category name="Security" />
+    <name>Verify that drupal_http_request uses HTTPS and is called with verify_peer in order to validate the certificate</name>
+    <configKey>Security/HttpRequest</configKey>
+    <description>@category Verify that drupal_http_request uses HTTPS and is called with verify_peer in order to validate the certificate</description>
+  </rule>
+  <rule key="Security.Drupal7.HttpRequest.D7HttpRequestUserInputErr" priority="MAJOR">
+    <category name="Security" />
+    <name>drupal_http_request called with variable $url</name>
+    <configKey>Security/HttpRequest</configKey>
+    <description>@category drupal_http_request called with variable $url</description>
+  </rule>
+  <rule key="Security.Drupal7.XSSHTMLConstruct.D7XSSHTMLConstructWarn" priority="MAJOR">
+    <category name="Security" />
+    <name>HTML construction with $key detected.</name>
+    <configKey>Security/XSSHTMLConstruct</configKey>
+    <description>@category HTML construction with $key detected.</description>
+  </rule>
+  <rule key="Security.Drupal7.UserInputWatch.D7UserInWaWarn" priority="MAJOR">
+    <category name="Security" />
+    <name>User input detetected with $_COOKIE.</name>
+    <configKey>Security/UserInputWatch</configKey>
+    <description>@category User input detetected with $_COOKIE.</description>
+  </rule>
+  <rule key="Security.BadFunctions.CryptoFunctions.WarnCryptoFunc" priority="CRITICAL">
+    <category name="Security" />
+    <name>Crypto function base64_encode used.</name>
+    <configKey>Security/CryptoFunctions</configKey>
+    <description>@category Crypto function base64_encode used.</description>
+  </rule>
+  <rule key="Security.Drupal7.UserInputWatch.D7UserInWaFormWarn" priority="MINOR">
+    <category name="Security" />
+    <name>At least 10 possible user input detetected with $form.</name>
+    <configKey>Security/UserInputWatch</configKey>
+    <description>@category At least 10 possible user input detetected with $form.</description>
+  </rule>
+  <rule key="Security.Drupal7.XSSFormValue.D7XSSErrFormValue" priority="CRITICAL">
+    <category name="Security" />
+    <name>XSS found with #value on arg</name>
+    <configKey>Security/XSSFormValue</configKey>
+    <description>@category XSS found with #value on arg</description>
+  </rule>
+  <rule key="Security.Drupal7.XSSFormValue.D7XSSWarFormValue" priority="CRITICAL">
+    <category name="Security" />
+    <name>Potential XSS found with #value on form field</name>
+    <configKey>Security/XSSFormValue/configKey>
+    <description>@category Potential XSS found with #value on 'Add to basket'</description>
+  </rule>
+  <rule key="Security.Drupal7.XSSHTMLConstruct.D7XSSHTMLConstructWarnF" priority="MAJOR">
+    <category name="Security" />
+    <name>HTML construction with header() detected.</name>
+    <configKey>Security/XSSHTMLConstruct</configKey>
+    <description>@category HTML construction with header() detected.</description>
+  </rule>
+  <rule key="Security.Drupal7.UserInputWatch.D7UserInWaFormStateWarn" priority="MINOR">
+    <category name="Security" />
+    <name>At least 10 possible user input detetected with $form_state.</name>
+    <configKey>Security/UserInputWatch</configKey>
+    <description>@category At least 10 possible user input detetected with $form_state.</description>
+  </rule>
+  <rule key="Security.Drupal7.DynQueries.D7DynQueriesWarn" priority="CRITICAL">
+    <category name="Security" />
+    <name>Potential SQL injection in fields with param #1</name>
+    <configKey>Security/DynQueries</configKey>
+    <description>@category Potential SQL injection in fields with param #1</description>
+  </rule>
+  <rule key="Security.Drupal7.DynQueries.D7DynQueriesDirectVar" priority="CRITICAL">
+    <category name="Security" />
+    <name>Potential SQL injection with direct variable usage in fields with param #1</name>
+    <configKey>Security/DynQueries</configKey>
+    <description>@category Potential SQL injection with direct variable usage in fields with param #1</description>
+  </rule>
+  <rule key="Security.BadFunctions.EasyXSS.EasyXSSwarn" priority="MAJOR">
+    <category name="Security" />
+    <name>Possible XSS detected with VAR on print</name>
+    <configKey>Security/EasyXSS</configKey>
+    <description>@category Possible XSS detected with VAR on print; see logs for the var</description>
+  </rule>
+  <rule key="Security.Drupal7.DbQueryAC.D7DbQueryACErr" priority="MAJOR">
+    <category name="Security" />
+    <name>EntityFieldQuery with entity type node should be tagged for access restrictions</name>
+    <configKey>Security/DbQueryAC</configKey>
+    <description>@category EntityFieldQuery with entity type node should be tagged for access restrictions</description>
+  </rule>
 </rules>
