@@ -1037,7 +1037,7 @@
   <rule key="Security.Drupal7.XSSFormValue.D7XSSWarFormValue" priority="CRITICAL">
     <category name="Security" />
     <name>Potential XSS found with #value on form field</name>
-    <configKey>Security/XSSFormValue/configKey>
+    <configKey>Security/XSSFormValue</configKey>
     <description>@category Potential XSS found with #value on 'Add to basket'</description>
   </rule>
   <rule key="Security.Drupal7.XSSHTMLConstruct.D7XSSHTMLConstructWarnF" priority="MAJOR">
