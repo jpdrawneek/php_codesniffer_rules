@@ -403,6 +403,12 @@
     <configKey>Drupal/Functions</configKey>
     <description>@category Remove space before parenthesis!</description>
   </rule>
+  <rule key="Drupal.Functions.DiscouragedFunctions.Discouraged" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Using a discouraged functions</name>
+    <configKey>Drupal/Functions</configKey>
+    <description>@category Remove and find another safer say of doing this code.</description>
+  </rule>
   <rule key="Drupal.WhiteSpace.OperatorSpacing.NoSpaceAfter" priority="MINOR">
     <category name="Drupal" />
     <name>No Space After</name>
@@ -462,6 +468,12 @@
     <name>Drupal Commenting FunctionComment $InReturnType.</name>
     <configKey>Drupal/Commenting</configKey>
     <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Drupal.Commenting.FunctionComment.ExtraParamComment" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Commenting has extra param</name>
+    <configKey>Drupal/Commenting</configKey>
+    <description>@category Remove extra param in comment header.</description>
   </rule>
   <rule key="Drupal.Formatting.SpaceInlineIf.NoSpaceAfter" priority="MINOR">
     <category name="Drupal" />
