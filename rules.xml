@@ -31,6 +31,18 @@
     <configKey>Generic/PHP.LowerCaseKeyword.Found</configKey>                                                                                                                               
     <description>@category Look at removing this function!</description>                                                                                                          
   </rule>
+  <rule key="Generic.WhiteSpace.ScopeIndent.IncorrectExact" priority="MINOR">
+    <category name="Generic" />
+    <name>White Space Scope Indent Incorrect Exact</name>                                                                                                                                  
+    <configKey>Generic/WhiteSpace</configKey>                                                                                                                               
+    <description>@category White Space Scope Indent Incorrect Exact</description>                                                                                                          
+  </rule>
+  <rule key="Generic.WhiteSpace.DisallowTabIndent.NonIndentTabsUsed" priority="MINOR">
+    <category name="Generic" />
+    <name>White Space Disallow Tab Indent Non Indent Tabs Used</name>                                                                                                                                  
+    <configKey>Generic/WhiteSpace</configKey>                                                                                                                               
+    <description>@category Remove Non Indent Tabs Used</description>                                                                                                          
+  </rule>
 <!-- PSR1 Rules -->                                                                                                                                                                
   <rule key="PSR1.Methods.CamelCapsMethodName.NotCamelCaps" priority="MAJOR">
     <category name="PSR1" />
@@ -315,8 +327,49 @@
     <configKey>PSR2/ControlStructures.SwitchDeclaration.WrongOpenerdefault</configKey>
     <description>@category Switch incorrect</description>
   </rule>
-
+  <rule key="PSR2.Files.ClosingTag.NotAllowed" priority="MAJOR">
+    <category name="PSR2" />
+    <name>Closing Tag Not Allowed</name>
+    <configKey>PSR2/Files</configKey>
+    <description>@category Closing Tag Not Allowed</description>
+  </rule>
+  <rule key="PSR2.Classes.ClassDeclaration.SpaceBeforeImplements" priority="MAJOR">
+    <category name="PSR2" />
+    <name>Class Declaration Space Before Implements</name>
+    <configKey>PSR2/Classes</configKey>
+    <description>@category Class Declaration remove Space Before Implements</description>
+  </rule>
 <!-- Squiz Rules -->
+  <rule key="Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis" priority="MAJOR">
+    <category name="Squiz" />
+    <name>Space After Close Parenthesis.</name>
+    <configKey>Squiz/Arrays</configKey>
+    <description>@category Remove Space After Close Parenthesis.</description>
+  </rule>
+  <rule key="Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace" priority="MAJOR">
+    <category name="Squiz" />
+    <name>Newline After Open Brace.</name>
+    <configKey>Squiz/ControlStructures</configKey>
+    <description>@category Remove Newline After Open Brace.</description>
+  </rule>
+  <rule key="Squiz.ControlStructures.ControlSignature.SpaceAfterCloseBrace" priority="MAJOR">
+    <category name="Squiz" />
+    <name>Space After Close Brace.</name>
+    <configKey>Squiz/ControlStructures</configKey>
+    <description>@category Remove SpaceA fter Close Brace.</description>
+  </rule>
+  <rule key="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword" priority="MAJOR">
+    <category name="Squiz" />
+    <name>Space After Keyword.</name>
+    <configKey>Squiz/ControlStructures</configKey>
+    <description>@category Remove Space After Keyword.</description>
+  </rule>
+  <rule key="Squiz.Functions.MultiLineFunctionDeclaration.ContentAfterBrace" priority="MAJOR">
+    <category name="Squiz" />
+    <name>Content After Brace.</name>
+    <configKey>Squiz/ControlStructures</configKey>
+    <description>@category Remove Content After Brace.</description>
+  </rule>
   <rule key="Squiz.Arrays.ArrayDeclaration.CommaAfterLast" priority="MAJOR">
     <category name="Squiz" />
     <name>Array Declaration Comma After Last.</name>
