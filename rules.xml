@@ -714,6 +714,12 @@
     <configKey>Drupal/Commenting</configKey>
     <description>@category Checks that else/elseif/catch statements start on a new line.</description>
   </rule>
+  <rule key="Drupal.NamingConventions.ValidGlobal.GlobalUnderScore" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Valid Global: Global Under Score.</name>
+    <configKey>Drupal/NamingConventions</configKey>
+    <description>@category Remove Global under score usage.</description>
+  </rule>
   <rule key="Drupal.NamingConventions.ValidFunctionName.ScopeNotLowerCamel" priority="MAJOR">
     <category name="Drupal" />
     <name>Checks that else/elseif/catch statements start on a new line.</name>
