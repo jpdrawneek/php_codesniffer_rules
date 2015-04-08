@@ -504,6 +504,12 @@
     <configKey>Drupal/WhiteSpace</configKey>
     <description>@category Checks that else/elseif/catch statements start on a new line.</description>
   </rule>
+  <rule key="Drupal.Commenting.FunctionComment.SeePunctuation" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Drupal Commenting Function Comment See Punctuation.</name>
+    <configKey>Drupal/Commenting</configKey>
+    <description>@category Commenting function comment see punctuation.</description>
+  </rule>
   <rule key="Drupal.Commenting.FunctionComment.ContentAfterOpen" priority="MAJOR">
     <category name="Drupal" />
     <name>Checks that else/elseif/catch statements start on a new line.</name>
@@ -593,6 +599,12 @@
     <name>Checks that else/elseif/catch statements start on a new line.</name>
     <configKey>Drupal/ControlStructures</configKey>
     <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+  </rule>
+  <rule key="Drupal.ControlStructures.InlineControlStructure.NotAllowed" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Drupal control structures inline control structure not allowed.</name>
+    <configKey>Drupal/ControlStructures</configKey>
+    <description>@category Inline control structure not allowed.</description>
   </rule>
   <rule key="Drupal.Commenting.FunctionComment.HookReturnDoc" priority="MAJOR">
     <category name="Drupal" />
@@ -768,6 +780,18 @@
     <configKey>TAG_INDENT</configKey>
     <description>@category tag comment incorrectly indented</description>
   </rule>
+  <rule key="Drupal.Classes.InterfaceName.InterfaceSuffix" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Drupal Classes Interface Name Interface Suffix</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category Interface name interface suffix incorrect</description>
+  </rule>
+  <rule key="Drupal.Classes.ClassDeclaration" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Drupal Classes Class Declaration</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category Class Declaration incorrect.</description>
+  </rule>
   <rule key="Drupal.Classes.ClassCreateInstance" priority="MAJOR">
     <category name="Drupal" />
     <name>Tag comment incorrectly indented</name>
@@ -911,6 +935,18 @@
     <name>Tag comment incorrectly indented</name>
     <configKey>TAG_INDENT</configKey>
     <description>@category tag comment incorrectly indented</description>
+  </rule>
+  <rule key="Drupal.Commenting.FunctionComment.SpacingBeforeReturnType" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Drupal Commenting Function Comment Spacing Before Return Type</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category Function Comment Spacing Before Return Type</description>
+  </rule>
+  <rule key="Drupal.Commenting.FunctionComment.SpacingBeforeParamType" priority="MAJOR">
+    <category name="Drupal" />
+    <name>Drupal Commenting Function Comment Spacing Before Param Type</name>
+    <configKey>TAG_INDENT</configKey>
+    <description>@category Function Comment Spacing Before Param Type incorrectly indented</description>
   </rule>
   <rule key="Drupal.Commenting.FunctionComment.SpacingBeforeParams" priority="MAJOR">
     <category name="Drupal" />
