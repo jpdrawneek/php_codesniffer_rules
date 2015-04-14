@@ -668,26 +668,26 @@
   </rule>
   <rule key="Drupal.Semantics.FunctionCall.LArg" priority="MAJOR">
     <category name="Drupal" />
-    <name>Checks that else/elseif/catch statements start on a new line.</name>
-    <configKey>Drupal/ControlStructures</configKey>
+    <name>Semantics Function Call L Arg.</name>
+    <configKey>Drupal/Semantics</configKey>
     <description>@category Checks that else/elseif/catch statements start on a new line.</description>
   </rule>
   <rule key="Drupal.Semantics.TInHookMenu.TFound" priority="MAJOR">
     <category name="Drupal" />
-    <name>Checks that else/elseif/catch statements start on a new line.</name>
-    <configKey>Drupal/ControlStructures</configKey>
+    <name>Semantics T In Hook Menu.</name>
+    <configKey>Drupal/Semantics</configKey>
     <description>@category Checks that else/elseif/catch statements start on a new line.</description>
   </rule>  
   <rule key="Drupal.WhiteSpace.ScopeIndent.IncorrectExact" priority="MAJOR">
     <category name="Drupal" />
-    <name>Checks that else/elseif/catch statements start on a new line.</name>
-    <configKey>Drupal/ControlStructures</configKey>
-    <description>@category Checks that else/elseif/catch statements start on a new line.</description>
+    <name>Scope Indent Incorrect Exact.</name>
+    <configKey>Drupal/WhiteSpace</configKey>
+    <description>@category Checks the white space Scope Indent Incorrect.</description>
   </rule>
   <rule key="Drupal.Semantics.FunctionCall.WatchdogT" priority="MAJOR">
     <category name="Drupal" />
-    <name>Checks that else/elseif/catch statements start on a new line.</name>
-    <configKey>Drupal/ControlStructures</configKey>
+    <name>Semantics Function Call Watchdog T.</name>
+    <configKey>Drupal/Semantics</configKey>
     <description>@category Checks that else/elseif/catch statements start on a new line.</description>
   </rule>
   <rule key="Drupal.Semantics.FunctionCall.WhiteSpace" priority="MINOR">
